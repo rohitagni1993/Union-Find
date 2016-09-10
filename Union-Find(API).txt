@@ -1,0 +1,17 @@
+/*Goal. Design efficient data structure for union-find.
+・Number of objects N can be huge.
+・Number of operations M can be huge.
+・Find queries and union commands may be intermixed.*/
+
+public class UF{
+  
+  UF (int n) //This is a construcor to initialize Union-Find Data Structure with N objects
+  
+  void union(int p, int q) //add connection b/w p and q
+  
+  boolean connected(int p, int q) //check to see if p and q belong to the same component
+  
+  int find(int p) //component identifier for p (0 to N-1)
+  
+  int count() //counts number of components
+}
